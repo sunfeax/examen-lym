@@ -1,0 +1,77 @@
+@media only screen and (max-width: 768px) {
+    #principal-inicio h1{
+        font-size: 2rem;
+        width: 30rem;
+        padding: 0;
+    }
+
+    #principal-cursos{
+        height: auto;
+        width: 100%;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        gap: 1rem;
+    }
+
+    .texto{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    #cursos{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .curso{
+        height: auto;
+    }
+
+    .curso h4{
+        font-size: 18px;
+    }
+
+    .desc-curso{
+        font-size: 16px;
+    }
+
+    .duracion{
+        font-size: 24px;
+    }
+    .duracion p{
+        font-size: 14px;
+    }
+}
+
+/* @media (orientation: landscape){
+    #principal-cursos{
+        gap: 1.5rem;
+    }
+
+    .curso{
+        width: 30rem;
+        height: auto;
+    }
+
+    .curso h4{
+        font-size: 26px;
+    }
+
+    .desc-curso{
+        width: 26rem;
+        font-size: 20px;
+    }
+
+    .logo-curso{
+        width: 30rem;
+    }
+
+    .duracion{
+        font-size: 24px;
+    }
+
+
+    .duracion p{
+        font-size: 18px;
+    }
+} */
